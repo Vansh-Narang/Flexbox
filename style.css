@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    /*Learn*/
+    /* flex-direction: column; */
+    /*main axis alignment by default*/
+    /* //Make any conatiner a flexbox */
+    flex-wrap: wrap;
+    /*Wrap themsleves when shrinked*/
+    gap: 10px;
+    /*Make gap between 2 children (like margin )*/
+    /* flex-flow: wrap row;/**Wrap row as well as in form of row*/
+    justify-content: center;
+    align-items: center;
+    /* learn important */
+    /*take by default but can change*/
+    align-content: space-around;
+
+
+}
+
+.box {
+    /*Child of container*/
+    width: 100px;
+    border: 2px solid green;
+}
